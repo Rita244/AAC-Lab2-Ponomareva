@@ -102,11 +102,11 @@
 
 Console.WriteLine();
 
-Console.Write("Введите ваш рост в метрах (например, 1.75): ");
+Console.Write("Введите ваш рост в метрах: ");
 string heightInput = Console.ReadLine();
 double height = double.Parse(heightInput);
 
-Console.Write("Введите ваш вес в килограммах (например, 68.5): ");
+Console.Write("Введите ваш вес в килограммах: ");
 string weightInput = Console.ReadLine();
 double weight = double.Parse(weightInput);
 
