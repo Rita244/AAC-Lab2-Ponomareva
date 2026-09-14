@@ -147,12 +147,41 @@
 // Console.WriteLine($"double:  0.1 + 0.2 = {priceDouble}");
 // Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
-Console.Write("Введите ваш год рождения: ");
-string birthYearInput = Console.ReadLine();
+// Console.Write("Введите ваш год рождения: ");
+// string birthYearInput = Console.ReadLine();
 
-int birthYearConvert = Convert.ToInt32(birthYearInput);
-int birthYearParse = int.Parse(birthYearInput);
+// int birthYearConvert = Convert.ToInt32(birthYearInput);
+// int birthYearParse = int.Parse(birthYearInput);
 
-Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
-Console.WriteLine($"int.Parse:       {birthYearParse}");
-Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
+// Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
+// Console.WriteLine($"int.Parse:       {birthYearParse}");
+// Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
+
+Console.Write("Введите имя и фамилию: ");
+string name = Console.ReadLine();
+
+Console.Write("Введите группу: ");
+string group = Console.ReadLine();
+
+Console.Write("Введите год рождения: ");
+int birthYear = int.Parse(Console.ReadLine());
+
+Console.Write("Введите средний балл: ");
+double average = double.Parse(Console.ReadLine());
+
+Console.Write("Введите любимую букву: ");
+char letter = Console.ReadLine()[0];
+
+int ageIn2030 = 2030 - birthYear;
+
+bool goodScore = average >= 4.0;
+
+Console.WriteLine();
+Console.WriteLine("Анкета");
+Console.WriteLine("--------------------------------");
+Console.WriteLine($"Имя и фамилия: {name}");
+Console.WriteLine($"Группа: {group}");
+Console.WriteLine($"Год рождения: {birthYear} (в 2030 будет {ageIn2030} год)");
+Console.WriteLine($"Средний балл: {average}");
+Console.WriteLine($"Балл >= 4.0: {goodScore}");
+Console.WriteLine($"Любимая буква: {letter}");
