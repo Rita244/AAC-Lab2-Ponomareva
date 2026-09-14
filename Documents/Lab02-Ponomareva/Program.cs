@@ -136,13 +136,23 @@
 
 // byte maxByte = 255;
 // byte overflowed = (byte)(maxByte + 1);
-// Console.WriteLine($"255 + 1 для byte = {overflowed}");
+// // Console.WriteLine($"255 + 1 для byte = {overflowed}");
 
-Console.WriteLine();
-Console.WriteLine("decimal против double");
+// Console.WriteLine();
+// Console.WriteLine("decimal против double");
 
-double priceDouble = 0.1 + 0.2;
-decimal priceDecimal = 0.1m + 0.2m;
+// double priceDouble = 0.1 + 0.2;
+// decimal priceDecimal = 0.1m + 0.2m;
 
-Console.WriteLine($"double:  0.1 + 0.2 = {priceDouble}");
-Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
+// Console.WriteLine($"double:  0.1 + 0.2 = {priceDouble}");
+// Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
+
+Console.Write("Введите ваш год рождения: ");
+string birthYearInput = Console.ReadLine();
+
+int birthYearConvert = Convert.ToInt32(birthYearInput);
+int birthYearParse = int.Parse(birthYearInput);
+
+Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
+Console.WriteLine($"int.Parse:       {birthYearParse}");
+Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
