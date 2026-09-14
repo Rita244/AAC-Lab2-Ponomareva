@@ -43,6 +43,6 @@ Console.WriteLine("var");
 
 var studentAge = 20;
 var gpa = 4.75;
-var fullName = "Смирнова А.С."
+var fullName = "Смирнова А.С.";
 
 Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
