@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab02-Ponomareva")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ff978ba421372ae8c65ccafc08a1d9268e3dd4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b9d19e5785e52449c716e2534282556600ef27")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab02-Ponomareva")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab02-Ponomareva")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

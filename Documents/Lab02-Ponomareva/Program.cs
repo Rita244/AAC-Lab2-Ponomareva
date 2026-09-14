@@ -8,11 +8,23 @@
 // Console.WriteLine("Границы дробных типов");
 // Console.WriteLine($"float: {float.MinValue} .. {float.MaxValue}");
 // Console.WriteLine($"double: {double.MinValue} .. {double.MaxValue}");
-// Console.WriteLine($"decimal: {decimal.MinValue} .. {decimal.MaxValue}");
+// // Console.WriteLine($"decimal: {decimal.MinValue} .. {decimal.MaxValue}");
+
+// Console.WriteLine();
+// Console.WriteLine("Переполнение byte");
+
+// byte maxByte = 255;
+// byte overflowed = (byte)(maxByte + 1);
+// Console.WriteLine($"255 + 1 для byte = {overflowed}");
 
 Console.WriteLine();
-Console.WriteLine("Переполнение byte");
+Console.WriteLine("char");
 
-byte maxByte = 255;
-byte overflowed = (byte)(maxByte + 1);
-Console.WriteLine($"255 + 1 для byte = {overflowed}");
+char firstLetter = 'A';
+char separator = '-';
+int charAsNumber = firstLetter; 
+
+Console.WriteLine($"Символ: {firstLetter}, разделитель: {separator}");
+Console.WriteLine($"Код символа '{firstLetter}' в Unicode: {charAsNumber}");
+Console.WriteLine($"Табуляция:\tпосле таба");
+Console.WriteLine($"Перенос:\nпосле переноса");
