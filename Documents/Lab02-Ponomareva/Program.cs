@@ -100,16 +100,33 @@
 // Console.WriteLine($"Балл >= 4.0: {goodScore}");
 // Console.WriteLine($"Любимая буква: {letter}");
 
+// Console.WriteLine();
+
+// Console.Write("Введите ваш рост в метрах: ");
+// string heightInput = Console.ReadLine();
+// double height = double.Parse(heightInput);
+
+// Console.Write("Введите ваш вес в килограммах: ");
+// string weightInput = Console.ReadLine();
+// double weight = double.Parse(weightInput);
+
+// double bmi = weight / (height * height);
+
+// Console.WriteLine($"ИМТ: {bmi:F2}");
+
 Console.WriteLine();
 
-Console.Write("Введите ваш рост в метрах: ");
-string heightInput = Console.ReadLine();
-double height = double.Parse(heightInput);
+Console.Write("Введите целое число: ");
+string intInput = Console.ReadLine();
+bool intSuccess = int.TryParse(intInput, out int intValue);
+Console.WriteLine($"Успешно: {intSuccess}, значение: {intValue}");
 
-Console.Write("Введите ваш вес в килограммах: ");
-string weightInput = Console.ReadLine();
-double weight = double.Parse(weightInput);
+Console.Write("Введите дробное число: ");
+string doubleInput = Console.ReadLine();
+bool doubleSuccess = double.TryParse(doubleInput, out double doubleValue);
+Console.WriteLine($"Успешно: {doubleSuccess}, значение: {doubleValue}");
 
-double bmi = weight / (height * height);
-
-Console.WriteLine($"ИМТ: {bmi:F2}");
+Console.Write("Введите дату в формате дд.мм.гггг: ");
+string dateInput = Console.ReadLine();
+bool dateSuccess = DateTime.TryParse(dateInput, out DateTime dateValue);
+Console.WriteLine($"Успешно: {dateSuccess}, значение: {dateValue}");
