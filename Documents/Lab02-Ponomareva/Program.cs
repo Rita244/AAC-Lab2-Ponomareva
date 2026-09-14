@@ -38,11 +38,24 @@
 // Console.WriteLine($"double:  0.1 + 0.2 = {priceDouble}");
 // Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
 
+// Console.WriteLine();
+// Console.WriteLine("var");
+
+// var studentAge = 20;
+// var gpa = 4.75;
+// var fullName = "Смирнова А.С.";
+
+// Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+
 Console.WriteLine();
-Console.WriteLine("var");
+Console.WriteLine("Ввод чисел: Convert и Parse");
 
-var studentAge = 20;
-var gpa = 4.75;
-var fullName = "Смирнова А.С.";
+Console.Write("Введите ваш год рождения: ");
+string birthYearInput = Console.ReadLine();
 
-Console.WriteLine($"{fullName}, возраст {studentAge}, средний балл {gpa}");
+int birthYearConvert = Convert.ToInt32(birthYearInput);
+int birthYearParse = int.Parse(birthYearInput);
+
+Console.WriteLine($"Convert.ToInt32: {birthYearConvert}");
+Console.WriteLine($"int.Parse:       {birthYearParse}");
+Console.WriteLine($"В 2030 году вам будет: {2030 - birthYearConvert} лет");
