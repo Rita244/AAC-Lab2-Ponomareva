@@ -131,9 +131,18 @@
 // bool dateSuccess = DateTime.TryParse(dateInput, out DateTime dateValue);
 // Console.WriteLine($"Успешно: {dateSuccess}, значение: {dateValue}");
 
-Console.WriteLine();
-Console.WriteLine("Переполнение byte");
+// Console.WriteLine();
+// Console.WriteLine("Переполнение byte");
 
-byte maxByte = 255;
-byte overflowed = (byte)(maxByte + 1);
-Console.WriteLine($"255 + 1 для byte = {overflowed}");
+// byte maxByte = 255;
+// byte overflowed = (byte)(maxByte + 1);
+// Console.WriteLine($"255 + 1 для byte = {overflowed}");
+
+Console.WriteLine();
+Console.WriteLine("decimal против double");
+
+double priceDouble = 0.1 + 0.2;
+decimal priceDecimal = 0.1m + 0.2m;
+
+Console.WriteLine($"double:  0.1 + 0.2 = {priceDouble}");
+Console.WriteLine($"decimal: 0.1 + 0.2 = {priceDecimal}");
