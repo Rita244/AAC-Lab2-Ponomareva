@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj": {
+    "C:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj",
         "projectName": "AAC-Lab2-Ponomareva",
-        "projectPath": "c:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\AAC-Lab2-Ponomareva.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\AAC-Lab2-Ponomareva\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
