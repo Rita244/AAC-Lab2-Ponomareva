@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\bin\Debug\net10.0\AAC-Lab2-Ponomareva.exe
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\bin\Debug\net10.0\AAC-Lab2-Ponomareva.deps.json
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\bin\Debug\net10.0\AAC-Lab2-Ponomareva.runtimeconfig.json
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\bin\Debug\net10.0\AAC-Lab2-Ponomareva.dll
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\bin\Debug\net10.0\AAC-Lab2-Ponomareva.pdb
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.AssemblyInfo.cs
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.sourcelink.json
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.dll
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\refint\AAC-Lab2-Ponomareva.dll
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.pdb
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\AAC-Lab2-Ponomareva.genruntimeconfig.cache
+C:\Users\ASUS\Documents\AAC-Lab2-Ponomareva\obj\Debug\net10.0\ref\AAC-Lab2-Ponomareva.dll
